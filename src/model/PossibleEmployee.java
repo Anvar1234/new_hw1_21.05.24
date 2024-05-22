@@ -1,7 +1,6 @@
 package model;
 
 public enum PossibleEmployee {
-
     EMPLOYEE_1("Анатолий", "12-12-1990"),
     EMPLOYEE_2("Чубайс", "11-11-1991"),
     EMPLOYEE_3("Валерий", "16-02-1990"),
@@ -13,8 +12,7 @@ public enum PossibleEmployee {
     EMPLOYEE_9("Алена", "01-01-1996"),
     EMPLOYEE_10("Гульназ", "15-08-1998");
 
-
-    private int id;
+    private final int id;
     private final String name;
     private final String dateOfBirth;
 

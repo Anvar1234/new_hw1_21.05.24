@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ListToMapChanger {
+public class ListToMapConverterById {
     public static Map<Integer, Employee> changeEmployeeListToEvenIdEmployeeMap(List<Employee> employeeList) {
         Map<Integer, Employee> evenIdEmployees = new HashMap<>();
         for (Employee employee : employeeList) {

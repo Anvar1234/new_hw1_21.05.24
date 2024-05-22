@@ -1,10 +1,8 @@
 package util;
 
 import java.time.LocalDate;
-import java.util.Arrays;
 
 public class DateConverter {
-
     public static LocalDate getLocalDateFromStringDate(String date){
         String[] dateArray = date.split("-");
 
