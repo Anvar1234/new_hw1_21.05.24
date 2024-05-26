@@ -1,7 +1,7 @@
-import runner.AplicationRunner;
+import runner.ApplicationRunner;
 
 public class Main {
     public static void main(String[] args) {
-        AplicationRunner.run();
+        ApplicationRunner.run();
     }
 }

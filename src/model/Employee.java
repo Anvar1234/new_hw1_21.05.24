@@ -40,8 +40,8 @@ public class Employee implements Comparable<Employee> {
                 "id = " + id +
                 ", Имя = " + name +
                 ", Дата рождения = " +
-                String.format("%02d", dateOfBirth.getDayOfMonth()) + "." +
-                String.format("%02d", dateOfBirth.getMonthValue()) + "." +
+                String.format("%02d", dateOfBirth.getDayOfMonth()) + "-" +
+                String.format("%02d", dateOfBirth.getMonthValue()) + "-" +
                 dateOfBirth.getYear() + ", " +
                 "email = " + email + "\n";
     }
