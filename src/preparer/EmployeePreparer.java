@@ -13,7 +13,6 @@ public class EmployeePreparer {
     private static List<PossibleEmployee> getPossibleEmployee() {
         return Arrays.asList(PossibleEmployee.values());
     }
-
     public List<Employee> getEmployees() {
         List<Employee> employees = new ArrayList<>();
         for (PossibleEmployee possibleEmployee : possibleEmployee) {

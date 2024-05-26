@@ -10,7 +10,6 @@ public class EvenAndOddIdEmployeeMaps {
     private final Map<Integer, Employee> evenIdEmployees;
     private final Map<Integer, Employee> oddIdEmployees;
 
-
     public EvenAndOddIdEmployeeMaps(List<Employee> employeeList) {
         this.evenIdEmployees = new HashMap<>();
         this.oddIdEmployees = new HashMap<>();
