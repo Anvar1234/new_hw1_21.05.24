@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Класс для подготовки списка объектов Employee из существующего enum-класса.
+ */
 public class EmployeePreparer {
     private static final List<PossibleEmployee> possibleEmployee = getPossibleEmployee();
     private static List<PossibleEmployee> getPossibleEmployee() {
